@@ -1,1 +1,15 @@
 <p>This is the about view.</p>
+<div ng-controller="AboutCtrl">
+	<ul ng-repeat="plang in awesomeThings">
+		<li>
+		{{plang}}
+		</li>
+	</ul>
+</div>
+<!-- <div ng-controller="AboutCtrl">
+	<ol>
+		<li ng-repeat="name in names">
+			{{name}} from {{department}}
+		</li>
+	</ol>
+</div> -->

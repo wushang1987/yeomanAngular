@@ -11,16 +11,60 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    
     <!-- endbuild -->
   </head>
   <body ng-app="yeomanAngularApp">
+      <div ui-view></div>
+
+
+    
+<!--   <div class="container-fluid">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <ul class="list-group">
+        <li class="list-group-item" ui-sref="state1">Item 1</li>
+        <li class="list-group-item" ui-sref="state2">Item 2</li>
+      </ul>
+    </div>
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+    <div ui-view></div>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>ddd</th>
+            <th>ddd</th>
+            <th>ddd</th>
+            <th>ddd</th>
+            <th>ddd</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ddd</td>
+            <td>ddd</td>
+            <td>ddd</td>
+            <td>ddd</td>
+            <td>ddd</td>
+          </tr>
+           <tr>
+            <td>ddd</td>
+            <td>ddd</td>
+            <td>ddd</td>
+            <td>ddd</td>
+            <td>ddd</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> -->
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
+   <!--  <div class="header">
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -55,7 +99,7 @@
       <div class="container">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -80,9 +124,9 @@
         <script src="./bower_components/angular-messages/angular-messages.js"></script>
         <script src="./bower_components/angular-mocks/angular-mocks.js"></script>
         <script src="./bower_components/angular-resource/angular-resource.js"></script>
-        <script src="./bower_components/angular-route/angular-route.js"></script>
         <script src="./bower_components/angular-sanitize/angular-sanitize.js"></script>
         <script src="./bower_components/angular-touch/angular-touch.js"></script>
+        <script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>

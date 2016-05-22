@@ -102,6 +102,12 @@ gulp.task('watch', function () {
     .pipe($.plumber())
     .pipe($.connect.reload());
 
+    //增加对index.html 的监听s
+    $.watch(paths.views.main)
+    .pipe($.plumber())
+    .pipe($.connect.reload());
+
+
   $.watch(paths.scripts)
     .pipe($.plumber())
     .pipe(lintScripts())
