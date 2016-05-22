@@ -5,8 +5,13 @@ version 0.15.1.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
+这个项目在gulp 下面跑的时候出现了问题，查找之后官网已经解决，但是没有发布版本。
 
-## Testing
+[解决方法在这里](https://github.com/yeoman/generator-angular/pull/1247/files)
 
-Running `grunt test` will run the unit tests with karma.
+另外需要在index.html 页面添加angular.js相关引用
+
+启动项目需要
+npm install 
+bower install
+gulp serve
