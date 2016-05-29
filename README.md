@@ -20,5 +20,7 @@ gulp serve
 # 修改日志
 
 #### 2016-05-22
+
 1.使用ui-router实现路由机制
+
 2.增加了bootstrap 样式
